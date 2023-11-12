@@ -8,7 +8,7 @@ const dataList = fetch('https://apis.data.go.kr/4180000/cctour/getTourList?servi
 })
 
 let flag = false
-main(dataList);
+main(dataList); 
 
 // 데이터 처리 영역
 async function main(dataList){
